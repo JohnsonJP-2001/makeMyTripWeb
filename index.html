@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+
+        <!-- icon style sheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- script file -->
+        <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="topnav">
+        <div id="intopnav">
+            <div id="intopnav1" >
+                <img src="logo.png" style="object-fit: cover;width: 70%;margin-left: 8%;margin-top: 8%;" alt="Logo">
+            </div>
+
+            <div id="intopnav2" >
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Flight</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Hotel</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p >Homestay</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Package</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Train</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Bus</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Cab</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Forex</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Charter</p>
+                </div>
+
+                <div id="intopnav2box">
+                    <img src="images/flight.png" alt="">
+                    <p>Activities</p>
+                </div>
+            </div>
+
+            <div id="intopnav3" >
+                <em style="font-size: 30px;padding-top: 10%;padding-left: 15px;" class="fa-solid fa-circle-user"></em>
+                <p class="" style="padding-top: 2%;padding-left: 10px;">Login or create account</p>
+            </div>
+
+            <div id="intopnav4" >
+                <div style="width: 50%;height: 100%;">
+                    <p style="font-weight: bold;">Country</p>
+                    <p>India <em class="fa fa-caret-down"></em></p>
+                </div>
+                <div style="width: 50%;height: 100%;">
+                    <p style="font-weight: bold;">Language</p>
+                    <p>English <em class="fa fa-caret-down"></em></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="up1">
+        <div id="upin1">
+            <div id="upin1img">
+                <a target="_blank" href="#">
+                    <img src="images/logo.png" alt="Cinque Terre" >
+                  </a>
+            </div>
+            
+            <div id="inoff">
+                <div style="flex-grow: 5;"></div>
+                <div id="inoffbox">
+                    <div id="inoffboxl">
+                        <img src="images/off.png" alt="">
+                    </div>
+                    <div id="inoffboxr">
+                        <p>Super offer</p>
+                        <p>Explore great offer and deals</p>
+                    </div>
+                </div>
+
+                <div id="inoffbox">
+                    <div id="inoffboxl">
+                        <img src="images/suitcase.png" alt="">
+                    </div>
+                    <div id="inoffboxr">
+                        <p>Introducing mybiz</p>
+                        <p>Bussiness travel solution</p>
+                    </div>
+                </div>
+
+                <div id="inoffbox">
+                    <div id="inoffboxl">
+                        <img src="images/suit.png" alt="">
+                    </div>
+                    <div id="inoffboxr">
+                        <p>Mytrip</p>
+                        <p>Manage your Bookings</p>
+                    </div>
+                </div>
+            </div>
+            <div id="insearch">
+                <button id="tsbtn" title="bl" class="fa fa-caret-down"><p id="btnid">Login or create account</p></button>
+
+                <button id="tsbtn" title="gr" class="fa fa-flag"><p id="btnid">IN | Eng | INR</p></button>
+            </div>
+
+        </div>
+
+        <div id="bookdiv">
+            <div id="bookhead">
+                <div id="bookheadbox">
+                    <i class="fa-sharp fa-solid fa-plane-departure" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Flight</div>
+                    <div id="boxline" title="selected"></div>
+                </div>
+                <div id="bookheadbox">
+                    
+                    <i class="fa-solid fa-hotel" id="boxheadimg"></i>
+                    <div id="boxfoot">Hotel</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-house" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Home stay</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-boxes-packing" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Holiday</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-train" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Trains</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-bus" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Buses</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-taxi" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Cabs</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-trademark" id="boxheadimg"></i>
+                    <div id="boxfoot">Forex</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox" class="grow2">
+                    <i class="fa-solid fa-jet-fighter" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Jet Flight</div>
+                    <div id="boxline"></div>
+                </div>
+                <div id="bookheadbox">
+                    <i class="fa-solid fa-check" id="boxheadimg"></i>
+                    
+                    <div id="boxfoot">Activity</div>
+                    <div id="boxline"></div>
+                </div>
+            </div>
+            <div id="book">
+                <div id="bookin">
+                    <div id="bookinl">
+                        <label id="inbook">ONEWAY
+                            <input type="radio" name="radio" checked="checked" style="margin-right: 10px;">
+                            <span class="checkmark"></span>
+                          </label>
+        
+                          <label id="inbook">ROUNDTRIP
+                            <input type="radio" name="radio"  style="margin-right: 10px;">
+                            <span class="checkmark" ></span>
+                          </label>
+        
+                          <label id="inbook">MULTICITY
+                            <input type="radio" name="radio" style="margin-right: 10px;">
+                            <span class="checkmark"></span>
+                          </label>
+    
+                    </div>
+                      <div id="bookinr">
+                        <p>Book International and Domestic Flights</p>
+                      </div>
+                </div>
+
+                <div id="bookdetails">
+                    <div id="borrow">
+                        <i class="fa-solid fa-arrow-right-arrow-left" style="font-size: 20px;position: relative;left: 15px;top: 15px;"></i>
+                    </div>
+                    <div id="fromto">
+                        <p style="line-height: 3px;">FROM</p>
+                        <p class="title" style="font-size: 30px;line-height: 35px;">Delhi</p>
+                        <p class="subtitle"  style="line-height: 25px;">Del, Delhi Air port</p>
+                    </div>
+                    <div id="fromto" style="margin-left: 3%;">
+                        <p style="line-height: 3px;">TO</p>
+                        <p class="title" style="font-size: 30px;line-height: 35px;">Bengaluru</p>
+                        <p class="subtitle" style="line-height: 25px;white-space: nowrap;text-overflow: ellipsis;overflow-x: hidden;">Ben, Bengaluru International Air port</p>
+                    </div>
+
+                    <div id="dep">
+                        <p id="deparature" >DEPARATURE<i class="fa-solid fa-caret-down">
+                           
+                        </i></p> 
+                        
+                        <p id="month"><span id="date">20</span>Dec'22</p>
+                        <p id="day">Tuesday</p> 
+
+                    </div>
+                    <div id="dep">
+                        <p id="deparature" >RETURN<i class="fa-solid fa-caret-down"></i></p>
+                        <p>Tap to add a return date for bigger discounts</p>
+                    </div>
+
+                    <div id="lastdep">
+                        <p id="deparature" >TRAVELLER & CLASS<i class="fa-solid fa-caret-down"></i></p>
+                        <p id="month"><span id="date">1</span>Traveller</p>
+                        <p id="day">Economy/Premium Economy</p>
+                        <p id="newof">Group Booking Available!</p> 
+                        
+                    </div>
+                     
+                </div>
+
+                <div id="selectdiv">
+                    <div id="selediv">
+                        <div id="seledivboxh">
+                            <p>Select a fare type:</p>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Regular Fares
+                                <input type="radio" name="radio" style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Armed Forces Fares
+                                <input type="radio" name="radio"  style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Student Fares
+                                <input type="radio" name="radio"  style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Seneoir Citizen Fares
+                                <input type="radio" name="radio"  style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Doctor & Nurses Fares
+                                <input type="radio" name="radio"  style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <div id="seledivbox">
+                            <label id="seleradio">Double Seat Fares
+                                <input type="radio" name="radio"  style="margin-right: 5px;">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                    </div>
+                    <div id="trend">
+                        <div id="firsttrendbox">Trending Searches: </div>
+                        <div id="trendbox" >Delhi <i class="fa-solid fa-arrow-right"></i> Paris </div>
+                        <div id="trendbox" >Delhi <i class="fa-solid fa-arrow-right"></i> Kolkata</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="explore" style="height: 6%;width: 13%;position: absolute;margin-top: 2%;margin-left: 44%;display: flex; color: rgb(255, 255, 255);">
+                <i style="font-size: 18px;margin-top: 5px;margin-left: 10px;" class="fa-solid fa-angles-down"></i>
+                <p style="font-size: 18px;line-height: 1px;text-transform: capitalize;margin-left: 10px;">explore more</p>
+                <i style="font-size: 18px;margin-top: 5px;margin-left: 10px;" class="fa-solid fa-angles-up"></i>
+            </div>
+
+            <div id="searchbtndiv" >
+                <p id="search" style="position: relative;top: -12%;">Search</p>
+            </div>
+
+            <div id="div2">
+                <div id="div2box" class="headdiv2box">
+                    <div id="div2box1">
+                        <em class="fa-solid fa-globe"></em>
+                    </div>
+                    <div id="div2box2">
+                        <p id="box2head" style="padding-left: 20px;">Where2Go</p>
+                        
+                    </div>
+
+                </div>
+                <div id="div2box">
+                    <div id="div2box1">
+                        <em class="fa-solid fa-image"></em>
+                    </div>
+                    <div id="div2box2">
+                        <p id="box2head">TripMoney</p>
+                        <p id="box2subhead">Loan Credit and More</p>
+                    </div>
+
+                </div>
+                <div id="div2box">
+                    <div id="div2box1">
+                        <em class="fa-solid fa-cloud"></em>    
+                    </div>
+                    <div id="div2box2">
+                        <p id="box2head">Explore International Flights</p>
+                        <p id="box2subhead">Cheapest Flights to Paris, Bali, Tokyo & more
+                        </p>
+                    </div>
+                </div>
+                <div id="div2box">
+                    <div id="div2box1">
+                        <em class="fa-solid fa-users"></em>
+                    </div>
+                    <div id="div2box2">
+                        <p id="box2head">MICE</p>
+                        <p id="box2subhead">Plan Your Offsite with Us</p>
+                    </div>
+                </div>
+                <div id="div2box" style="border-right: none;">
+                    <div id="div2box1">
+                        <em class="fa fa-gift"></em>
+                    </div>
+                    <div id="div2box2">
+                        <p id="box2head" style="padding-left: 20px;">GiftCard</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+  
+        <div id="infooff">
+            <div id="infooff1">
+                <div id="infooff1-1">
+                    <p style="margin: 10% 10%;">Offers</p>
+                </div>
+                <div id="infooff1-2">
+                    <div id="infooff1-2-1" title="infooffselected">
+                        <p style="font-size: 25px;color:rgb(81,176,254);font-weight: bold;padding-bottom: 18px;margin-top: 10px;border-bottom-color: rgb(81,176,254);border-bottom-width: 5px;border-bottom-style: solid;width: fit-content;">All Offers</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Bank Offers</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Flights</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Hotel</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Holiday</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Trains</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Cabs</p>
+                    </div>
+
+                    <div id="infooff1-2-1">
+                        <p>Others</p>
+                    </div>
+                </div>
+                <div id="infooff1-3">
+                    <div id="infooff1-3-1" style="margin: auto 2px auto auto; border-top-left-radius: 25px;border-bottom-left-radius: 25px;">
+                        <em class="fa-solid fa-chevron-left" id="infoofficon" style="margin-left: 30px;"></em>
+
+                    </div>
+
+                    <div id="infooff1-3-1" style="margin: auto auto auto 2px; border-top-right-radius: 25px;border-bottom-right-radius: 25px;" onclick="scrollFun()">
+                        <em class="fa-solid fa-chevron-right" id="infoofficon" style="margin-left: 20px;"></em>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+
+        <div id="infooff2">
+            <div id="infooff2-1" style="margin-left: 30px;">
+               <div class="cls1" id="infooff2-1-1">
+                    <div id="infooff2-1-1-1">
+                        <img src="images/ad1.webp" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                        <div id="timing">
+                            <p>Offer Ends in 12h:13m</p>
+                        </div>
+                    </div>
+                    <div id="infooff2-1-1-2">
+                        <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                        <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                        <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                        <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                    </div>
+               </div>
+               <div id="infooff2-1-2">
+                <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                    <p>T & C's Apply</p>
+                </div>
+                <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                    <p>Code: FLYNOW</p>
+                </div>
+                <div style="flex-grow: 1;margin-left: 10%;">
+                    <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                </div>
+
+               </div>
+            </div>
+
+            <div id="infooff2-1" style="margin-left: 30px;">
+                <div id="infooff2-1-1">
+                     <div id="infooff2-1-1-1">
+                         <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                     </div>
+                     <div id="infooff2-1-1-2">
+                         <p style="color: rgb(183,183,183);text-transform: uppercase;">Cabs</p>
+                         <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">'Suhana Safar Sale' is BACK for Your Year-End Trip...</p>
+                         <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                         <p style="color: rgb(183,183,183);">Grab celebratory deals on outstation cabs, busesm self-drive cars, airport transfer cabs & hourly rental cabs.</p>
+                     </div>
+                </div>
+                <div id="infooff2-1-2">
+                 <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                     <p>T & C's Apply</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 6%;display: none;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                     <p>Code: FLYNOW</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 40%;">
+                     <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                 </div>
+ 
+                </div>
+             </div>
+
+             <div id="infooff2-1" style="margin-left: 30px;">
+                <div id="infooff2-1-1">
+                     <div id="infooff2-1-1-1">
+                         <img src="https://promos.makemytrip.com/notification/xhdpi//Axis_DT_Flights.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                     </div>
+                     <div id="infooff2-1-1-2">
+                         <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                         <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                         <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                         <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                     </div>
+                </div>
+                <div id="infooff2-1-2">
+                 <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                     <p>T & C's Apply</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                     <p>Code: FLYNOW</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 10%;">
+                     <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                 </div>
+ 
+                </div>
+             </div>
+
+             <div id="infooff2-1" style="margin-left: 30px;">
+                <div id="infooff2-1-1">
+                     <div id="infooff2-1-1-1">
+                         <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-IF-CFAR-26092022.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                     </div>
+                     <div id="infooff2-1-1-2">
+                         <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                         <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                         <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                         <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                     </div>
+                </div>
+                <div id="infooff2-1-2">
+                 <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                     <p>T & C's Apply</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                     <p>Code: FLYNOW</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 10%;">
+                     <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                 </div>
+ 
+                </div>
+             </div>
+
+             <div id="infooff2-1" style="margin-left: 30px;">
+                <div id="infooff2-1-1">
+                     <div id="infooff2-1-1-1">
+                         <img src="https://promos.makemytrip.com/images//116x116-Affordability-DT-2x-12102011.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                     </div>
+                     <div id="infooff2-1-1-2">
+                         <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                         <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                         <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                         <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                     </div>
+                </div>
+                <div id="infooff2-1-2">
+                 <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                     <p>T & C's Apply</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                     <p>Code: FLYNOW</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 10%;">
+                     <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                 </div>
+ 
+                </div>
+             </div>
+        </div>
+
+        <div id="infooff2" style="margin-bottom: 50px;">
+            <div id="infooff2-1" style="margin-left: 30px;">
+                <div id="infooff2-1-1">
+                     <div id="infooff2-1-1-1">
+                         <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-LemonTree-04102021.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                     </div>
+                     <div id="infooff2-1-1-2">
+                         <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                         <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                         <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                         <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                     </div>
+                </div>
+                <div id="infooff2-1-2">
+                 <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                     <p>T & C's Apply</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                     <p>Code: FLYNOW</p>
+                 </div>
+                 <div style="flex-grow: 1;margin-left: 10%;">
+                     <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                 </div>
+ 
+                </div>
+             </div>
+ 
+             <div id="infooff2-1" style="margin-left: 30px;">
+                 <div id="infooff2-1-1">
+                      <div id="infooff2-1-1-1">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//vietnam-116x116-02122022.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                      </div>
+                      <div id="infooff2-1-1-2">
+                          <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                          <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                          <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                          <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                      </div>
+                 </div>
+                 <div id="infooff2-1-2">
+                  <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                      <p>T & C's Apply</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                      <p>Code: FLYNOW</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 10%;">
+                      <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                  </div>
+  
+                 </div>
+              </div>
+ 
+              <div id="infooff2-1" style="margin-left: 30px;">
+                 <div id="infooff2-1-1">
+                      <div id="infooff2-1-1-1">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_SuahanaSafarSale_15Dec@2x.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                      </div>
+                      <div id="infooff2-1-1-2">
+                          <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                          <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                          <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                          <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                      </div>
+                 </div>
+                 <div id="infooff2-1-2">
+                  <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                      <p>T & C's Apply</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                      <p>Code: FLYNOW</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 10%;">
+                      <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                  </div>
+  
+                 </div>
+              </div>
+ 
+              <div id="infooff2-1" style="margin-left: 30px;">
+                 <div id="infooff2-1-1">
+                      <div id="infooff2-1-1-1">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-SeasonBreathing-14112022.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                      </div>
+                      <div id="infooff2-1-1-2">
+                          <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                          <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                          <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                          <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                      </div>
+                 </div>
+                 <div id="infooff2-1-2">
+                  <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                      <p>T & C's Apply</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                      <p>Code: FLYNOW</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 10%;">
+                      <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                  </div>
+  
+                 </div>
+              </div>
+ 
+              <div id="infooff2-1" style="margin-left: 30px;">
+                 <div id="infooff2-1-1">
+                      <div id="infooff2-1-1-1">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-IH-Maldives-05012022.jpg" alt="advertisement" style="width: 100%;height: 100%;object-fit: cover;">
+                      </div>
+                      <div id="infooff2-1-1-2">
+                          <p style="color: rgb(183,183,183);text-transform: uppercase;">dom flights</p>
+                          <p style="font-weight: bold;font-size: larger;text-transform: capitalize;">flat 12% instant discount on domestic flights! </p>
+                          <div style="height: 2px;width: 25%;background-color: rgb(235,32,38);"></div>
+                          <p style="color: rgb(183,183,183);">Valid Only on Citi Credit and Debit cards.</p>
+                      </div>
+                 </div>
+                 <div id="infooff2-1-2">
+                  <div style="flex-grow: 1;margin-left: 5%;margin-top: 1%;font-size: medium;color: rgb(183,183,183);">
+                      <p>T & C's Apply</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 6%;font-size: medium;margin-top: 1%;color: rgb(183,183,183);">
+                      <p>Code: FLYNOW</p>
+                  </div>
+                  <div style="flex-grow: 1;margin-left: 10%;">
+                      <p style="color: rgb(81,176,254);font-weight: bold;">View Details</p>
+                  </div>
+  
+                 </div>
+              </div>
+        </div>
+        
+    </div>
+
+    <div id="about">
+        <div id="abouticon" style="margin: 2.5% -1%;">
+            <em class="fa-solid fa-chevron-left" id="infoofficon" style="margin-left: 20px;margin-top: 20px;"></em>
+        </div>
+        <div id="aboutbox">
+            <div id="aboutboxl">
+                <img src="images/about1.webp" alt="" id="abimg">
+            </div>
+            <div id="aboutboxr">
+                <p style="font-weight: bold;color: rgb(74, 74, 74);">Planing to book an International flight?</p>
+                <p style="color: rgb(102, 102, 102);">Call 0124-4628747 for booking assistance</p>
+            </div>
+        </div>
+        <div id="aboutbox">
+            <div id="aboutboxl">
+                <img src="images/about2.png" alt="" id="abimg">
+            </div>
+            <div id="aboutboxr">
+                <p style="color: rgb(74, 74, 74);">We are now available in Hindi</p>
+                <p style="color: rgb(81,176,254);">Click here to change language</p>
+            </div>
+        </div>
+        <div id="aboutbox">
+            <div id="aboutboxl">
+                <img src="images/about3.png" alt="" id="abimg">
+            </div>
+            <div id="aboutboxr">
+                <p style="color: rgb(74, 74, 74);">Complete your web check-in on MakeMyTRip in easy steps.</p>
+                <p style="color: rgb(81,176,254);">Click to know more</p>
+            </div>
+        </div>
+        <div id="aboutbox">
+            <div id="aboutboxl">
+                <img src="images/about1.webp" alt="" id="abimg">
+            </div>
+            <div id="aboutboxr">
+                <p style="font-weight: bold;color: rgb(74, 74, 74);">Planing to book an International flight?</p>
+                <p style="color: rgb(102, 102, 102);">Call 0124-4628747 for booking assistance</p>
+            </div>
+        </div>
+        <div id="aboutbox">
+            <div id="aboutboxl">
+                <img src="images/about1.webp" alt="" id="abimg">
+            </div>
+            <div id="aboutboxr">
+                <p style="font-weight: bold;color: rgb(74, 74, 74);">Planing to book an International flight?</p>
+                <p style="color: rgb(102, 102, 102);">Call 0124-4628747 for booking assistance</p>
+            </div>
+        </div>
+        <div id="abouticon" style="margin: 2.5% 89%;">
+            <em class="fa-solid fa-chevron-right" id="infoofficon" style="margin-left: 25px;margin-top: 20px;"></em>
+        </div>
+    </div>
+
+
+    <div id="download">
+        <div id="dhead">
+            <h1 style="padding-top: 2%;padding-left: 2%;">Download App Now !</h1>
+            <h3 style="padding-left: 2%;color: rgb(102, 102, 102);">Get India's #1 travel super app, join 100 Million+ happy travelers!</h3>
+
+        </div>
+        <div id="dfoot">
+            <div id="dfoot1">
+                <img src="images/down.png" alt="" style="margin-left: 30%;margin-top: 15%;">
+
+            </div>
+
+            <div id="dfoot2">
+                <p style="padding-left: 25px;padding-top: 5%;padding-right: 20px;font-size: 17px;">Use code WELCOMEMMT and get upto Rs 1200 off on your first domestic flight booking</p>
+
+                <input type="text" name="textfield" id="textfield" value="" placeholder="Enter mobile number" style="height: 35px;width: 300px;border-radius: 5px;margin-left: 25px;font-size: 16px;" />
+    <input name="" type="button" value="Get App Link" style="height: 40px;width: 150px;background-color: rgb(81,176,254);font-size: 18px;font-weight: bold;border-radius: 10px;border: 2px solid rgb(81,176,254);">
+            </div>
+
+            <div id="dfoot3">
+                <div id="dfoot3-1">
+                    <p style="padding-left: 20px;font-size: 18px;">More Ways to Get App</p>
+                </div>
+                <div id="dfoot3-2">
+                    <div id="dfoot3-2-1">
+                        <img src="images/downplay.png" alt="" style="width: 80%;margin-left: 5%;height: 30%;margin-top: 5%;">
+                        <img src="images/downapp.png" alt="" style="width: 80%;margin-left: 5%;height: 30%;margin-top: 5%;">
+
+
+                    </div>
+                    <div id="dfoot3-2-2">
+                        <img src="images/qr.png" alt="" style="height: 90%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="coll">
+        <div id="collh">
+            <h1 style="width: 80%;padding-left: 25px;padding-top: 15px;">Handpicked Collections for You</h1>
+            <div id="collheadbox" style="margin-top: 20px;">
+                <div id="collheadbox1" style="margin: auto 2px auto auto; border-top-left-radius: 25px;border-bottom-left-radius: 25px;">
+                    <em class="fa-solid fa-chevron-left" id="infoofficon" style="margin-left: 30px;margin-bottom: 10px;"></em>
+
+                </div>
+
+                <div id="collheadbox1" style="margin: auto auto auto 2px; border-top-right-radius: 25px;border-bottom-right-radius: 25px;">
+                    <em class="fa-solid fa-chevron-right" id="infoofficon" style="margin-left: 20px;margin-bottom: 10px;"></em>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="collf" >
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/collections/m_romantic44_p_540_417.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">Romantic destinations</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/collections/m_honeymoon11_p_540_417.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">Honeymoon Destinations</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/TI/mmt/activities/m_curated_collection_international_destination_july_p_403_403.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">International destinations</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/collections/m_beach44_p_540_417.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">Beach destinations</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/collections/m_weekend44_p_540_417.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">Weekend Gateway</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">Hill Station</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com//content/hubble/img/amritsar/mmt/destination/m_Amritsar_activity_heritage_l_684_1026.jpg);">
+                <div style="background-color: aliceblue;height: 14%;width: 40%;text-align: center;padding: 2px;position: relative;left: 10px;top: 60%;font-weight: bold;border-radius: 10px;">
+                    <p>TOP 10</p>
+                </div>
+                <p style="position: relative;left: 10px;top: 60%;font-weight: bold;font-size: larger;">pilgrimage destinations</p>
+                
+            </div>
+        </div>         
+    </div>
+    
+
+    <div id="coll">
+        <div id="collh">
+            <h1 style="width: 80%;padding-left: 25px;padding-top: 15px;">Unlock Lesser-Known Wonders of India</h1>
+            <div id="collheadbox" style="margin-top: 20px;">
+                <div id="collheadbox1" style="margin: auto 2px auto auto; border-top-left-radius: 25px;border-bottom-left-radius: 25px;">
+                    <em class="fa-solid fa-chevron-left" id="infoofficon" style="margin-left: 30px;margin-bottom: 10px;"></em>
+
+                </div>
+
+                <div id="collheadbox1" style="margin: auto auto auto 2px; border-top-right-radius: 25px;border-bottom-right-radius: 25px;">
+                    <em class="fa-solid fa-chevron-right" id="infoofficon" style="margin-left: 20px;margin-bottom: 10px;"></em>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="collf" style="background-color: transparent;">
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com//content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Shimla's Best Kept Secret</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com//content/hubble/img/yercaud/mmt/destination/m_destination-yercaud-landscape_l_400_640.jpg);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)" >TamilNadu charming Hill Town</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com//content/hubble/img/dooars/mmt/destination/m_Dooars_l_457_685.jpg);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Picturesque Gateway to Himalaya's</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(https://hblimg.mmtcdn.com//content/hubble/img/saputara/mmt/destination/m_destination-saputara-landscape_l_400_640.jpg);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Quient little Hill Station in Gujarat</p>
+                
+            </div>
+
+                <div id="collfbox" style="background-image: url(images/mon.jfif);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Shimla's Best Kept Secret</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(images/mon.jfif);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Shimla's Best Kept Secret</p>
+                
+            </div>
+
+            <div id="collfbox" style="background-image: url(images/mon.jfif);">
+                <p style="position: relative;left: 10px;top: 75%;font-weight: bold;font-size: larger;color: rgb(243,243,243)">Shimla's Best Kept Secret</p>
+                
+            </div>
+        </div>         
+    </div>
+
+    <div id="order">
+        <div id="ordimg">
+            <img src="images/offimg.png" alt="" style="width: 100%;">
+        </div>
+        <div id="ordm">
+            <img src="images/tmlogo.jpg" alt="" style="width: 20%;margin-top: 20px;">
+            <p style="font-size: 17px;"><span style="font-size: 20px;font-weight: bold;">Forex</span> at best exchange rates deliverd at your doorstep</p>
+        </div>
+        <div id="ordnow">
+            <p style="position: relative;left: 4%;top: 20%;">Order Now </p>
+            <em class="fa-sharp fa-solid fa-arrow-right" style="position: relative;top: -22%;left: 75%;"></em>
+        </div>
+
+    </div>
+
+    <div id="definition">
+        <p id="deftitle" style="padding-top: 100px;">
+            product offering
+        </p>
+        <p id="defsubtitle">
+            <span id="hov">Flights</span>,<span id="hov">International Flights </span>,<span id="hov"> Charter Flights </span>,<span id="hov"> Hotels</span>,<span id="hov">International Hotels </span>,<span id="hov"> Activities</span>,<span id="hov"> myBiz for Corporate Travel</span>,<span id="hov"> Book Train Tickets</span>,<span id="hov"> Cheap Tickets to India</span>,<span id="hov"> Book Flights From US</span>,<span id="hov">  Book Flights From UAE</span>,<span id="hov"> Trip Planner</span>,<span id="hov"> Gift Cards </span>,<span id="hov">Book Online Cabs </span>,<span id="hov"> Book Hotels From UAE</span>,<span id="hov"> International Holidays</span>,<span id="hov"> Trip Money</span>,<span id="hov"> Trip Ideas</span>,<span id="hov"> Travel Blog</span>,<span id="hov"> PNR Status</span>,<span id="hov"> MakeMyTrip Advertising Solutions</span>,<span id="hov"> One Way Cab</span> 
+        </p>
+
+        <p id="deftitle">
+            makemytrip
+        </p>
+        <p id="defsubtitle">
+            About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us
+        </p>
+
+        <p id="deftitle">
+            About the site
+        </p>
+        <p id="defsubtitle">
+            Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home
+
+        </p>
+
+        <p id="deftitle">
+            quick links
+        </p>
+        <p id="defsubtitle">
+            Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar
+
+        </p>
+
+        <p id="deftitle">
+            Important links
+        </p>
+        <p id="defsubtitle">
+            Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman
+        </p>
+
+        <p id="deftitle">
+            Corporate travel
+        </p>
+        <p id="defsubtitle">
+            Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights
+        </p>
+
+        
+    </div>
+
+    <div id="details">
+        <div id="detailsbox" style="margin-left: 6%;">
+            <p style="font-weight: bold;">Why MakeMyTrip?</p>
+            <p style="font-size: medium;color: grey;">Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+        </div>
+        <div id="detailsbox" style="margin-left: 2%;">
+            <p style="font-weight: bold;">Booking Flights with MakeMyTrip</p>
+            <p style="font-size: medium;color: grey;">At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+        </div>
+        <div id="detailsbox" style="margin-left: 2%;">
+            <p style="font-weight: bold;">Domestic Flights with MakeMyTrip</p>
+            <p style="font-size: medium;color: grey;">MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+        </div>
+    </div>
+
+<!-- summa -->
+    <div id="summaaa">
+        <div style="height: 25%;"></div>
+        <div id="insum">
+            <div id="insuml">
+                <em class="fa-brands fa-twitter" style="padding-top: 40px;" id="hov"></em>
+                <em class="fa-brands fa-facebook" style="padding-left: 20px;" id="hov"></em>
+            </div>
+            <div id="insumr">
+                <p style="padding-top: 20px;">&copy 2022 MAKEMYTRIP PVT. LTD.</p>
+                <p>Country India USA UAE</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
