@@ -1,4 +1,4 @@
-body{
+ body{
     margin: 0px;
     height: 100vh;
     width: 100vw;
@@ -107,6 +107,7 @@ body{
 
 #inoffboxl{
     flex-grow: 2;
+    margin-right: 4%
 }
 
 #inoffboxl img{
@@ -805,11 +806,16 @@ input[value="Get App Link"]:hover{
 
 
 #collfbox{
+    transition: transform .2s;
     height: 80%;
     min-width: 18%;
     max-width: 18%;
     margin-left: 2%;
     border-radius: 10px; box-shadow: 0px 0 30px rgba(0, 0, 0, 10);background-repeat: no-repeat;background-size: cover;color: rgb(150, 148, 148);
+}
+
+#collfbox:hover{
+    transform: scale(1.2);
 }
 
 #top10{
@@ -923,4 +929,4 @@ input[value="Get App Link"]:hover{
     font-size: 20px;
     font-weight: bold;
     line-height: 10px;
-}
+} 

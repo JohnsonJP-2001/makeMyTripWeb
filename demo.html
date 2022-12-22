@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+        <!-- icon style sheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div onclick="chatopen()" id="chat">
+        <i style="font-size: 35px;margin-top: 5%;margin-left: 9%;" class="fa-solid fa-comments"></i>        
+        <p style="font-size: 15px;font-weight: bold;color: rgb(255, 255, 255);padding-left: 30px;padding-right: 30px;">
+            Click here to Chat with us...
+        </p>
+    </div>
+
+    <div id="chatting">    
+        <div onclick="chat()" id="close">
+            <i class="fa-solid fa-x" style="font-size: 18px;padding-top: 25%;padding-left: 30%;color: white;"></i>
+        </div>
+        <div id="chatback">
+            <p>
+                Hello I am bot How can I help you?
+            </p>
+        </div>
+        <span id="text">
+
+        </span>
+
+        <div style="width: 95%;height: 9%;margin-bottom: 10px;margin-left: 3%;border-radius: 10px;">
+            <input id="query" type="text" placeholder="Write a query ?">
+            <em onclick="add()" id="sendbtn" class="fa-solid fa-angle-right"></em>
+        </div>
+    </div>
+
+    
+    <!-- <div id="container" style="height: 45%;width: 17%;margin-left: 40%;margin-top: 15%;">
+
+        <div id="card">
+
+            <div id="front">
+                Front
+            </div>
+
+            <div id="back">
+                Back
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+    <div id="container1">
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//GoaSale-116x116.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//GoaSale-116x116.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="container" class="item one">
+            <div id="card">
+                <div id="front">
+                    <div id="inboximg">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="">
+    
+                    </div>                
+                    <div>
+                        <p>Dom Hotels</p>
+                        <p>Get Up to 40% OFF* on Goa Stays</p>
+                        <div></div>
+                        <p>& Enjoy Your Trip to the Beach Town!</p>
+                    </div>                
+                    <div style="text-align: center;">
+                        T & C'S Apply
+                    </div>                
+                    <div >
+                        Book Now
+                    </div>                
+                </div>
+                <div id="back" style="border-radius: 10px;">
+                    <div style="width: 100%;height: 100%;border-radius: 10px;">
+                        <img src="https://promos.makemytrip.com/notification/xhdpi//desktop-HomeStay-RJ-141222.jpg" alt="" style="width: 98%;height: 96%;object-fit: cover;margin-top: 1%;margin-left: 1%;border-radius: 10px;">
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div style="height: 100vh;"></div>
+    <script>
+
+        document.getElementById("query").focus();
+
+        function chat(){
+            document.getElementById("chatting").style="display:none;";
+            document.getElementById("text").innerHTML="";
+        }
+
+        function chatopen(){
+            
+            document.getElementById("chatting").style="display:flex;";
+            document.getElementById("query").focus();
+        }
+
+        function add(){
+            var query=document.getElementById("query").value;
+            document.getElementById("query").value="";
+            console.log(query);
+            document.getElementById("text").innerHTML+="<div id=\"chatback\"><p>"+query+"</p></div>";
+        }
+    </script>
+    
+</body>
+</html>
